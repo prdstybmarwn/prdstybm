@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="header-1">
+        <a href="#" class="logo"><i class="fas fa-book"></i> Library</a>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#featured">Featured</a>
+            <a href="#arrivals">Arrivals</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+    </div>
+</header>
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<div class="login-form-container">
+    <div id="close-login-btn" class="fas fa-times"></div>
+    <form action="">
+        <h3>Sign in</h3>
+        <span>Username</span>
+        <input type="email" name="" class="box" placeholder="Enter your email">
+        <span>Password</span>
+        <input type="password" name="" class="box" placeholder="Enter your password">
+        <div class="checkbox">
+            <input type="checkbox" id="remember-me">
+            <label for="remember-me"> Remember me</label>
+        </div>
+        <input type="submit" value="Sign in" class="btn">
+        <p>Forget password? <a href="#">Click here</a></p>
+        <p>Don't have an account? <a href="#">Create one</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Upto 75% Off</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam deserunt nostrum accusamus.</p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+    <div class="image">
+        <img src="images/img_1.jpg" alt="Book Image">
+        <img src="images/img_1.jpg" alt="Book Image">
+        <img src="images/img_1.jpg" alt="Book Image">
+    </div>
+</section>
+
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>Free Shipping</h3>
+            <p>Order Over $100</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>Secure Payment</h3>
+            <p>100% Secure Payment</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-undo"></i>
+        <div class="content">
+            <h3>Easy Returns</h3>
+            <p>10 Days Returns</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 Support</h3>
+            <p>Call Us Anytime</p>
+        </div>
+    </div>
+</section>
+
+<section class="featured" id="featured">
+    <h1 class="heading">New Arrivals</h1>
+    <div class="book-container">
+        <div class="book">
+            <img src="images/img_1.jpg" alt="Book Image">
+            <h3>Featured Books</h3>
+            <p>$15.99 <span>$20.99</span></p>
+        </div>
+        <div class="book">
+            <img src="images/img_1.jpg" alt="Book Image">
+            <h3>Featured Books</h3>
+            <p>$15.99 <span>$20.99</span></p>
+        </div>
+        <div class="book">
+            <img src="images/img_1.jpg" alt="Book Image">
+            <h3>Featured Books</h3>
+            <p>$15.99 <span>$20.99</span></p>
+        </div>
+        <div class="book">
+            <img src="images/img_1.jpg" alt="Book Image">
+            <h3>Featured Books</h3>
+            <p>$15.99 <span>$20.99</span></p>
+        </div>
+    </div>
+</section>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
